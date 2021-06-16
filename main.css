@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zilla+Slab:wght@300;400;600;700&display=swap');
+
+.navbar {
+	display: block;
+	text-align: center;
+	float:  none;
+	vertical-align: top;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+ul {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+ .navbar-toggler{
+ 	position: relative;
+ 	width: 100%;
+ 	margin: 0 auto !important;
+
+ }
+.navbar-brand {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+p, ul, h1, h2 {
+	font-family: Roboto !important;
+	font-weight: 300;
+}
+
+.display-3 {
+	font-size: 3em;
+}
+
+.navbar-nav{
+	font-size: 1em;
+	font-weight: bolder;
+	text-transform: uppercase;
+
+}
+
+h2 {
+	font-weight: 300;
+}
+
+h4{
+	font-family: Roboto;
+	font-weight: 500;
+}
+
+.jumbotron{
+background: rgb(255, 255, 255);
+}
+
+body {
+	background: rgb(245, 245, 245);
+	height: 100%;
+}
+
+.container {
+	width: 60%;
+	align-content: center;
+}
+.btn:focus, .btn:active {
+	outline: none !important;
+	box-shadow: none;
+}
